@@ -1,0 +1,60 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo Flexbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo Flexbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+styles.css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.item {
+  background-color: #ffcc66;
+  color: #333;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  text-align: center;
+  flex: 1;
+}
