@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos da Europa</title>
+    <style>
+        /* Estilos simples para ilustrar a página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos da Europa</h1>
+    </header>
+    <main>
+        <div class="card">
+            <img src="paris.jpg" alt="Paris">
+            <h2>Paris, França</h2>
+            <p>Paris é conhecida como a cidade do amor e é famosa por monumentos como a Torre Eiffel, o Museu do Louvre e a Catedral de Notre-Dame.</p>
+            <a href="paris.html">Saiba mais sobre Paris</a>
+        </div>
+
+        <div class="card">
+            <img src="rome.jpg" alt="Roma">
+            <h2>Roma, Itália</h2>
+            <p>Roma é uma cidade repleta de história, com o Coliseu, o Pantheon e o Vaticano, além de deliciosa gastronomia italiana.</p>
+            <a href="rome.html">Saiba mais sobre Roma</a>
+        </div>
+
+        <div class="card">
+            <img src="barcelona.jpg" alt="Barcelona">
+            <h2>Barcelona, Espanha</h2>
+            <p>Barcelona combina arquitetura única de Gaudí, praias deslumbrantes e uma animada vida noturna.</p>
+            <a href="barcelona.html">Saiba mais sobre Barcelona</a>
+        </div>
+        
+        <!-- Adicione mais cards para outros destinos -->
+    </main>
+</body>
+</html>
