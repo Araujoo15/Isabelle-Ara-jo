@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ponto Turístico da Minha Cidade</title>
+    <style>
+        /* Estilos básicos para melhorar a aparência */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ponto Turístico da Minha Cidade</h1>
+    </header>
+
+    <main>
+        <h2>Nome do Ponto Turístico</h2>
+        <p>Descrição breve do ponto turístico na sua cidade.</p>
+        <img src="link_para_sua_imagem.jpg" alt="Descrição da imagem">
+
+        <h3>Por que visitar?</h3>
+        <ul>
+            <li>Razão 1</li>
+            <li>Razão 2</li>
+            <li>Razão 3</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nome da Sua Cidade</p>
+    </footer>
+
+</body>
+</html>
