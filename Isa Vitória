@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meus Lugares Favoritos na Cidade</title>
+</head>
+<body>
+
+<h1>Meus Lugares Favoritos na Cidade</h1>
+
+<p>Aqui estão alguns dos meus lugares favoritos para visitar na cidade:</p>
+
+<!-- Adicione as imagens dos lugares -->
+<img src="link-da-imagem-parque-central" alt="Parque Central">
+<img src="link-da-imagem-cafe" alt="Café Aconchegante">
+<img src="link-da-imagem-biblioteca" alt="Biblioteca Histórica">
+<img src="link-da-imagem-mirante" alt="Mirante Panorâmico">
+<img src="link-da-imagem-praca" alt="Praça Cultural">
+
+</body>
+</html>
